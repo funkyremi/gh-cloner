@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 require("events").EventEmitter.prototype._maxListeners = 100;
-require("commander").version("1.0.0");
+require("commander").version("1.0.1");
 const Octokit = require("@octokit/rest");
 const shell = require("shelljs");
 const inquirer = require("inquirer");
