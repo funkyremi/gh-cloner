@@ -1,0 +1,32 @@
+{
+  "name": "gh-cloner",
+  "version": "1.0.0",
+  "description": "Clone all repos of an organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkyremi/gh-cloner.git"
+  },
+  "keywords": [
+    "github",
+    "backup",
+    "clone",
+    "repos",
+    "organization"
+  ],
+  "author": "Rémi Testa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funkyremi/gh-cloner/issues"
+  },
+  "homepage": "https://github.com/funkyremi/gh-cloner#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.35.2",
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.1",
+    "shelljs": "^0.8.3"
+  }
+}
