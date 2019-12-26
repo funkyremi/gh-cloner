@@ -1,6 +1,6 @@
 {
   "name": "gh-cloner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clone all repos of an organization",
   "main": "index.js",
   "bin": {
